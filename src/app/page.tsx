@@ -1,7 +1,13 @@
 import React from 'react';
 
+import StatusBar from '@/components/StatusBar';
+
 const page = () => {
-  return <div className='text-red-700'>노토산스 글씨입니다.</div>;
+  return (
+    <div>
+      <StatusBar />
+    </div>
+  );
 };
 
 export default page;
